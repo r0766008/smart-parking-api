@@ -9,7 +9,7 @@ const Vehicle = function(vehicle) {
 };
 
 Vehicle.getAll = (result) => {
-  let query = "SELECT * FROM vehicles";
+  let query = "SELECT * FROM vehicles ORDER BY timestamp DESC";
 
   sql.query(query, (err, res) => {
     if (err) {
