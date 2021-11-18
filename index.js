@@ -3,19 +3,11 @@ const cors = require("cors");
 
 const app = express();
 
-var corsOptions = {
-  origin: "http://localhost:3000"
-};
-
-app.use(cors(corsOptions));
+app.use(cors());
 
 app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
-
-app.get("/", (req, res) => {
-  res.json({ message: "Welcome to bezkoder application." });
-});
 
 require("./app/routes/vehicle.routes.js")(app);
 
