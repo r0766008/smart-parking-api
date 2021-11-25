@@ -1,6 +1,6 @@
 module.exports = {
-  HOST: "sql11.freemysqlhosting.net",
-  USER: "sql11452047",
-  PASSWORD: "I8QFQvySrn",
-  DB: "sql11452047"
+  HOST: "sql113.unaux.com",
+  USER: "unaux_30450546",
+  PASSWORD: "pkggqpguaud1vtb",
+  DB: "unaux_30450546_smart_parking_iot"
 };
